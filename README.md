@@ -22,4 +22,11 @@ Copy jsonLint text to Script Editor and save it as jsonLint.scpt to
 ```
 Launch TextWrangler, open json document, select jsonLint in script menu and enjoy...
 
+## TextWrangler-jsLint
+https://github.com/AirGraph/TextWrangler-jsLint
+
 ## QuickStart
+You can add any jsonlint iptions in source script like this:
+```
+set shellScript to "cd /usr/local/bin" & ";" & "./jsonlint " & POSIX path of scriptFile & " -c"
+```
