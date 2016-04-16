@@ -1,7 +1,7 @@
 tell application "TextWrangler"
 	
 	set winList to every text window
-	set scriptFile to ""
+	set jsonFile to ""
 	
 	repeat with win in winList
 		if visible of win then
@@ -12,7 +12,7 @@ tell application "TextWrangler"
 			end if
 			
 			tell win
-				set scriptFile to file of active document as string
+				set jsonFile to file of active document as string
 			end tell
 			exit repeat
 			
@@ -20,9 +20,9 @@ tell application "TextWrangler"
 	end repeat
 end tell
 
-if scriptFile is not equal to "" then
+if jsonFile is not equal to "" then
 	
-	set shellScript to "cd /usr/local/bin" & ";" & "./jsonlint " & POSIX path of scriptFile
+	set shellScript to "cd /usr/local/bin" & ";" & "./jsonlint " & POSIX path of jsonFile
 	try
 		
 		do shell script shellScript
