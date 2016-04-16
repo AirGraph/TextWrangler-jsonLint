@@ -1,4 +1,4 @@
-# TextWrangler-jsLint
+# TextWrangler-jsonLint
 Applescript for linting json documents in TextWrangler
 
 ## Questions and Bug Reports
@@ -30,3 +30,6 @@ You can add any jsonlint iptions in source script like this:
 ```
 set shellScript to "cd /usr/local/bin" & ";" & "./jsonlint " & POSIX path of scriptFile & " -c"
 ```
+
+## TextWrangler-jsLint
+https://github.com/AirGraph/TextWrangler-jsLint
