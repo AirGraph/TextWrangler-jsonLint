@@ -1,5 +1,4 @@
 set jsonFile to ""
-
 tell application "TextWrangler"
 	
 	set winList to every text window
