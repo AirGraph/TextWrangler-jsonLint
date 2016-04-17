@@ -1,8 +1,8 @@
+set jsonFile to ""
+
 tell application "TextWrangler"
 	
 	set winList to every text window
-	set jsonFile to ""
-	
 	repeat with win in winList
 		if visible of win then
 			
