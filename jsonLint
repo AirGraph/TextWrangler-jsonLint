@@ -21,7 +21,7 @@ end tell
 
 if jsonFile is not equal to "" then
 	
-	set shellScript to "cd /usr/local/bin" & ";" & "./jsonlint " & POSIX path of jsonFile
+	set shellScript to "cd /usr/local/bin" & ";" & "./node jsonlint " & POSIX path of jsonFile
 	try
 		
 		do shell script shellScript
