@@ -23,7 +23,7 @@ https://github.com/AirGraph/TextWrangler-jsLint
 ## QuickStart
 You can add any jsonlint options in source script like this:
 ```
-set shellScript to "cd /usr/local/bin" & ";" & "./node jsonlint " & POSIX path of jsonFile & " -c"
+do shell script "cd /usr/local/bin" & ";" & "./node jsonlint " & POSIX path of jsonFile & " -c"
 ```
 
 ## TextWrangler-jsLint
