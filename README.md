@@ -17,9 +17,6 @@ Copy jsonLint text to Script Editor and save it as jsonLint.scpt to
 ```
 Launch TextWrangler, open json document, select jsonLint in script menu and enjoy...
 
-## TextWrangler-jsLint
-https://github.com/AirGraph/TextWrangler-jsLint
-
 ## QuickStart
 You can add any jsonlint options in source script like this:
 ```
